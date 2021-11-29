@@ -1,0 +1,43 @@
+.about {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 80vh;
+    box-shadow:  0 0 15px 5px grey;
+    background: rgb(196, 188, 188);
+    position: relative;
+    background-color: darkkhaki;
+}
+.inner_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+    width: 50vw;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    position: relative;
+    background-color: blanchedalmond;
+    
+}
+heading{
+    font-weight: bolder;
+    color: brown;
+}
+
+h1{
+    color: rgb(224, 20, 13);
+    font-size: 20px;
+}
+.half{
+    width: 50vw;
+    background-image: url('../../images/aboutus_inner.jpg');
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+p{
+    font-size: 15px;
+    font-weight: bold;
+}

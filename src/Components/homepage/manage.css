@@ -1,0 +1,50 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #aeb7e0;
+    width: 99vw;
+    height: 99vh;
+    border-radius: 20px;
+    height: fit-content;
+    box-shadow:  0 0 15px 5px grey;
+    padding: 10px;
+}
+/*.select{
+  opacity: 0;
+}*/
+.h1manage{
+    padding: 10px;
+    color: rgb(75, 24, 24);
+  }
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid #24252A;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+
+  }
+ 
+  td, th {
+    text-align: left;
+    padding: 8px;
+  }
+
+  th{
+    background-color: chartreuse;
+}
+  td{
+      color: rgb(96, 37, 151);
+  }
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  button{
+      background-color: brown;
+      width: fit-content;
+  }

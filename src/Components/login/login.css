@@ -1,0 +1,340 @@
+.login {
+  display: inline-flex;
+    flex-direction: row;
+    width: 99vw;
+    height: fit-content;
+    box-shadow:  0 0 15px 5px grey;
+    background: rgb(196, 188, 188);
+    position: relative;
+    background-color: darkkhaki;
+    background-image: url('../../images/background.jpg'); 
+     background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ opacity: 1;  
+}
+/* .login_image{
+  display: flex;
+ margin: 10px;
+ width: 60vw;
+ background-image: url('https://bootstrapious.com/i/snippets/sn-registeration/illustration.svg');
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.second_half{
+  display: inline-flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 40vw;
+  padding: 20px;
+}
+
+.login > .login-btn {
+  width: fit-content;
+  height: fit-content;
+  padding: 4px;
+  margin: 4px;
+  font-size: 13px;
+  background: rgb(123, 5, 233);
+  border: 2px solid #ecf0f1;
+  border-radius: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+  color:rgb(229, 175, 143);
+}
+  /*.login-btn:hover{
+    background-color: green;
+  }
+  h1{
+    color: white;
+    background: transparent;
+    text-shadow: 0 2px 2px black;
+    justify-content: center;
+  }
+   
+  .second_half > .h1 {
+    margin-top: 80px;
+    margin-left: 35px;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+
+  }
+   .second_half > .input{
+    margin-top: 20px;
+    display: inline-flex;
+    flex-direction: column;
+  }
+
+.second_half > .input > input{
+  padding: 15px;
+  outline: none;
+  font-size: 13px;
+  width: 250px;
+  height: 25px;
+  border-radius: 10px;
+  
+  }
+
+.second_half > .input >.button{
+  margin-top: 30px;
+  width: 250px;
+  height: 30px;
+  background-color: rgb(39, 98, 224);
+  font-size: 15px;
+  border-radius: 10px;
+  font-weight: bold;
+  }
+
+   .second_half > .input >.button:hover{
+    background-color: green;
+  } 
+ 
+  .second_half > .input >.registerhere{
+    margin-top: 25px;
+    font-size: 15px;
+  }*/
+/*
+  .login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login > .wrapper{
+    margin-top: 10px;
+    width: 60%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    -webkit-box-shadow: 0px 5px 33px -21px black;
+    -moz-box-shadow: 0px 5px 33px -21px black;
+    box-shadow: 0px 5px 33px -21px black;
+    border-radius: 20px;
+  background-color: cadetblue;
+}
+
+.left , .right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left{
+  margin-top: 10px;
+}
+.right{
+  margin-top: 40px;
+
+}
+.center{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.or{
+    border: 2px solid grey;
+    border-radius: 50%;
+    padding: 10px;
+    color: grey;
+    background-color: white;
+    font-weight: bold;
+}
+
+.line{
+    width: 0.5px;
+    height: 70%;
+    background-color: lightgrey;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+.loginButton{
+  display: inline-flex;
+  flex-direction: column;
+}
+
+
+img{
+    height: 40px;
+    padding: 5px;
+}
+
+input{
+    width: 200px;
+    padding:15px 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: rgb(37, 32, 32);
+    background-color: blanchedalmond;
+}
+
+.button{
+    width: 150px;
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    padding: 15px 20px;
+    border:none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.logintitle{
+    position: absolute;
+    top: 50px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.button:hover{
+  background-color: lightgreen;
+
+}
+
+span{
+  margin-top: 25px;
+  font-size: 15px;
+}*/
+.login{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.login > .wrapper{
+  margin-top: 20px;
+  width: 55%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  -webkit-box-shadow: 0px 5px 33px -21px black;
+  -moz-box-shadow: 0px 5px 33px -21px black;
+  box-shadow: 0px 5px 33px -21px black;
+  border-radius: 20px;
+  background-color: lightgray;
+}
+
+.left , .right{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.center{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.or{
+  border: 2px solid grey;
+  border-radius: 50%;
+  padding: 10px;
+  color: grey;
+  background-color: white;
+  font-weight: bold;
+}
+
+.line{
+  width: 0.5px;
+  height: 70%;
+  background-color: lightgrey;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.loginButton{
+  width: 150px;
+  border-radius: 5px;
+  color: white;
+  justify-content: center;
+  margin: 10px 25px;
+  
+}
+
+.google{
+  background-color: rgb(221, 169, 90);
+}
+
+.github{
+  background-color: grey;
+}
+.facebook{
+  background-color: blue;
+}
+img{
+  height: 40px;
+  padding: 5px;
+}
+
+input{
+  width: 150px;
+  padding:15px 20px;
+  margin-bottom: 20px;
+  font-size: 12px;
+
+}
+.registerhere {
+  margin-top: 10px; 
+  font-size: 12px;
+}
+
+.button{
+  width: 150px;
+  background-color: purple;
+  color: white;
+  font-weight: bold;
+  padding: 15px 20px;
+  border:none;
+  border-radius: 5px;
+}
+
+.logintitle{
+  position: absolute;
+  top: 60px;
+  color: rgb(78, 72, 72);
+  font-weight: bold;
+}
+
+
+.loginButton:hover{
+  cursor: pointer;
+  background-color: lightgreen;
+}
+
+.button:hover{
+  cursor: pointer;
+  background-color: lightgreen;
+}
+
+.my-facebook-button-class{
+  font-weight: bold;
+  height: 40px;
+  background-color: blue;
+  width: 150px;
+  border-radius: 5px;
+  color: white;
+  font-size: 10px;
+}
+
+.my-facebook-button-class:hover{
+  background-color: lightgreen;
+
+}

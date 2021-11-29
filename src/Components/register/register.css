@@ -1,0 +1,61 @@
+.register{
+display: inline-flex;
+flex-direction: row;
+width: 99vw;
+height: fit-content;
+box-shadow:  0 0 15px 5px grey;
+background: rgb(196, 188, 188);
+position: relative;
+background-color: darkkhaki;
+}
+
+.card_image_left{
+  background-image: url('../../images/register.jpg');
+  width: 50%;
+  background-size: cover;
+}
+
+.register > .register_input{
+  padding: 20px;
+  margin-left: 60px;
+
+}
+.register > .register_input >h1{
+  margin-top: 20px;
+  margin-left: 35px;
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+
+.register > .register_input >input{
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+  padding: 15px; 
+  outline: none;
+  font-size: 13px;
+  width: 250px;
+  height: 25px;
+  border-radius: 10px;
+}
+
+.register > .register_input >.register_button {
+  margin-top: 30px;
+  width: 250px;
+  height: 30px;
+  background-color: rgb(39, 98, 224);
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.register > .register_input > .register_button:hover{
+  background-color: green;
+}
+
+.register > .register_input > .loginhere{
+  margin-top: 25px;
+  font-size: 15px;
+}

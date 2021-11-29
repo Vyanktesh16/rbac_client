@@ -1,0 +1,19 @@
+.navbar-custom {
+    height: 80px;
+    font-size: medium;
+}
+.navbar {
+	margin:0 !important;
+	padding: 0px !important;
+}
+.navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+  }
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #044cb8;
+    font-size: large;
+    font-weight: bolder;
+}
